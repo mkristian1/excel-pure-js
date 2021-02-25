@@ -1,0 +1,25 @@
+{
+  "name": "js-2021",
+  "version": "1.0.0",
+  "description": "Pure Javascript Excel app",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkristian1/excel-pure-js.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "pure",
+    "js"
+  ],
+  "author": "Mkrtchyan Kristian <mkristian@live.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkristian1/excel-pure-js/issues"
+  },
+  "homepage": "https://github.com/mkristian1/excel-pure-js#readme"
+}
