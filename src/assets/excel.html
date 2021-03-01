@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>JS Excel</title>
+</head>
+
+<body>
+    <div id="app" class="container">
+        <div class="excel">
+            <header>
+                <div class="excel__header">
+                    <input class="new__file-input" type="text" value="New table">
+                    <div>
+                        <span class="material-icons btn">
+                            exit_to_app
+                        </span>
+                        <span class="material-icons btn">
+                            delete
+                        </span>
+                    </div>
+                </div>
+                <div class="excel__toolbar">
+                    <span class="material-icons btn">
+                        format_align_left
+                    </span>
+                    <span class="material-icons btn">
+                        format_align_center
+                    </span>
+                    <span class="material-icons btn">
+                        format_align_right
+                    </span>
+                    <span class="material-icons btn">
+                        format_bold
+                    </span>
+                    <span class="material-icons btn">
+                        format_italic
+                    </span>
+                    <span class="material-icons btn">
+                        format_underlined
+                    </span>
+                </div>
+
+                <div class="excel__formula">
+                    <div class="icon">
+                        Fx
+                    </div>
+                    <div contenteditable class="input">
+
+                    </div>
+                </div>
+                <div class="excel__table">
+                    <div class="row">
+                        <div class="row-info">
+                        </div>
+                        <div class="row-data">
+                            <div class="column">
+                                A
+                            </div>
+                            <div class="column">
+                                B
+                            </div>
+                            <div class="column">
+                                C
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="row-info">
+                            1
+                        </div>
+                        <div class="row-data">
+                            <div contenteditable class="cell selected">A1</div>
+                            <div contenteditable class="cell">B1</div>
+                            <div contenteditable class="cell">B2</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row-info">
+                            2
+                        </div>
+                        <div class="row-data">
+                            <div class="cell selected">A1</div>
+                            <div class="cell">B1</div>
+                            <div class="cell">B2</div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

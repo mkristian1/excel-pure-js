@@ -1,0 +1,15 @@
+@mixin btn($color) {
+    color: $color;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover {
+        color: #0ec1ce;
+    }
+}
+
+@mixin clearUl () {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
