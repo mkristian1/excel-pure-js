@@ -4,8 +4,17 @@ export class Excel {
         this.components = options.components || [];
     }
 
+    getRoot() {
+        const $root = document.createElement('div');
+        $root.classList.add('excell');
+        this.components.forEach(Component => {
+            const component = new Component();
+            $root.insertAdjacentHTML('beforeend', component.toHtml())
+        });
+        return $root; 
+    }
+ 
     render() {
-        console.log(this.$el);
-        this.$el.innerHTML = 'Kris'
+        this.$el.append(this.getRoot())
     } 
 }
